@@ -34,10 +34,10 @@ docker compose up --build -d
 docker exec -it etl_container bash 
 ```
 4. vous pouvez alors utilser les scripts en appelant directement le fichier concerné (exemple ici, le fichier help.py qui sert à lister les options possibles)
-### comandes bonus
 ```sh
 python help.py
 ```
+### Commandes bonus
 5. sortir du terminal interractif
 ```sh
 exit
