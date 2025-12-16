@@ -20,6 +20,8 @@ Nous remarquons que certaines entités se démarquent (équipes, lieux, dates ..
 ## Schema de base de données
 ### MCD
 ![Mcd](/asset/mcd_etl.jpg)
+### MLD
+![Mcd](/asset/mld_etl.jpg)
 ## Utilisation de l'etl (docker)
 L'application se lance avec docker. Deux volumes sont créés
 - un premier pour les fichiers csv et json a utiliser comme source de données
