@@ -132,3 +132,4 @@ df.loc[draw & (df["Score home"] > df["Score away"]),
 
 df.loc[draw & (df["Score away"] > df["Score home"]),
        ["Home result", "Away result"]] = ["loser", "winner"]
+df = df.drop(columns=["Win conditions", "Score home", "Score away"])
