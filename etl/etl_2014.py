@@ -65,3 +65,12 @@ def city_to_english(city):
             return c_name
 
     return city_clean 
+
+def normalize_stage(stage):
+    if pd.isna(stage):
+        return "unknown"
+
+    key = unidecode(stage).lower().strip()
+    key = key.replace("_", " ").replace("-", " ")
+
+    return STAGE_MAP.get(key, key)
